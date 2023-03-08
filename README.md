@@ -19,8 +19,28 @@ Consider the `Animal` hierarchy:
 
 The `Animal` class is the superclass with
 two subclasses extending it: the `Cat` class and the `Parrot` class.
-We will use this hierarchy an example to show how downcasting and upcasting
+We will use this hierarchy as an example to show how downcasting and upcasting
 work with instances of this class hierarchy.
+
+```java
+public class Animal {
+    private int age;
+    public int getAge() {return age;}
+    public void setAge(int age) {this.age = age;}
+}
+```
+
+```java
+public class Cat extends Animal {
+    public void purr() {System.out.println("purr purr purr");}
+}
+```
+
+```java
+public class Parrot extends Animal {
+    public void giveCracker() {System.out.println("yummy");}
+}
+```
 
 ### Upcasting or Widening
 
