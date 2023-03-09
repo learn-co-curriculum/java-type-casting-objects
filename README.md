@@ -165,7 +165,7 @@ As we can see, `myAnimal` object is an object of type `Cat`, not of type
 `Animal` That's because there is a difference between the type at compile-time
 and the type at runtime. At compile time, meaning when the code was written, the
 type of the `myAnimal` variable was defined as `Animal`. However, when the
-program runs, a `Cat` data type is assigned to `myAnimal` variable instead. So
+program runs, a `Cat` data type is assigned to the `myAnimal` variable instead. So
 the runtime type of `myAnimal` is `Cat` and this is valid through upcasting, as
 we saw above.
 
